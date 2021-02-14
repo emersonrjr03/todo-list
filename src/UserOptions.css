@@ -1,0 +1,44 @@
+.user_options__userProfileImg {
+  float: left;
+  border: none;
+  outline: none;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+  margin-bottom: 10px;
+}
+
+.user_options__userProfileImg:before {
+  content: "";
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.5),
+    transparent
+  );
+  transition: 1s;
+  transform: translateX(100%);
+}
+
+.user_options__userProfileImg:hover:before {
+  transform: translateX(-100%);
+}
+
+.user_options__userProfileImg:hover {
+  transform: scale(0.8);
+  font-size: 1.1;
+  transition: 1s;
+}
+
+.user_options__dropdown-menu {
+  /* Glassmorphism */
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}

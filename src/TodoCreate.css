@@ -1,0 +1,8 @@
+.todo_create__navbar {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: white;
+  width: 100%;
+}

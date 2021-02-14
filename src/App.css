@@ -1,0 +1,64 @@
+.app {
+  background-color: #86beec;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.app__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem;
+  width: 50%;
+  height: 80%;
+  border-radius: 1rem;
+
+  /* Glassmorphism */
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Mansalva', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Muli', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Bangers', cursive; */
+
+.app__quote {
+  position: fixed;
+  top: 0;
+  margin-left: 50px;
+}
+
+.app__quote p {
+  font-size: 14px;
+  color: #545454;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-family: "Mansalva", cursive;
+  font-style: italic;
+  margin-bottom: 0px;
+}
+
+.app__quote span {
+  font-size: 11px;
+  color: #2e2e2e;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-style: italic;
+  font-family: "Mansalva", cursive;
+  float: right;
+}
