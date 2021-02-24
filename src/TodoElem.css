@@ -1,0 +1,97 @@
+.done {
+  color: #38383881;
+}
+
+.done ::after {
+  position: absolute;
+  content: "";
+  left: 10px;
+  top: 45%;
+  right: 55px;
+  border-top: 3px solid;
+  border-color: #38383881;
+}
+
+.todoContent {
+  border: 0px !important;
+}
+
+.form-control {
+  border: none !important;
+}
+.form-control:focus {
+  outline-style: none !important;
+  box-shadow: none !important;
+}
+
+.todoContent > .form-control {
+  background-color: transparent !important;
+  border: 0px;
+  outline: none !important;
+}
+
+.todoContent:focus-within > .form-control {
+  outline-style: dashed !important;
+  outline-color: #0065ccc2 !important;
+  outline-offset: -3px !important;
+  cursor: text !important;
+}
+
+.todoContent:focus-within > .input-group-prepend > .input-group-text {
+  outline-style: dashed !important;
+  outline-color: #0065ccc2 !important;
+  outline-offset: -3px !important;
+  cursor: text !important;
+}
+
+.todoContent button {
+  display: none;
+}
+
+.todoContent:hover button {
+  display: flex !important;
+}
+
+.todoContent:focus-within button {
+  display: flex !important;
+  outline-color: #0065ccc2 !important;
+}
+
+.todoContent:hover > .form-control {
+  outline-style: dashed !important;
+  outline-color: #0065cc45 !important;
+  outline-offset: -3px !important;
+  cursor: pointer;
+}
+
+.todoContent > .input-group-prepend > .input-group-text {
+  background-color: transparent;
+  border: none;
+}
+
+.todoContent:hover > .input-group-prepend > .input-group-text {
+  outline-style: dashed !important;
+  outline-color: #0065cc45 !important;
+  outline-offset: -3px !important;
+  cursor: pointer;
+}
+
+.deleteBtn {
+  outline-style: dashed !important;
+  border: none !important;
+  outline-color: #0065cc45 !important;
+  margin: 0px !important;
+  border-radius: 0px !important;
+  outline-offset: -3px !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  background-color: transparent !important;
+  color: #fa00007d !important;
+}
+
+.todoContent:hover > .deleteBtn {
+  outline-style: dashed !important;
+  outline-color: #0065cc45 !important;
+  outline-offset: -3px !important;
+  cursor: pointer;
+}
