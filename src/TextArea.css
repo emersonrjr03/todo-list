@@ -1,0 +1,15 @@
+.text_area {
+}
+
+.text_area > .form-control {
+  border: none !important;
+  overflow: hidden;
+  resize: none;
+  background-color: transparent !important;
+  outline: none !important;
+}
+
+.text_area > .form-control:focus {
+  outline-style: none !important;
+  box-shadow: none !important;
+}

@@ -24,7 +24,6 @@ function App() {
 
   useEffect(() => {
     setTodoDocs(snapshot?.docs)
-    console.log('updating list' + todoDocs?.length)
   }, [snapshot]);
 
   return (
